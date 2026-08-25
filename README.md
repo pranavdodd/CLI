@@ -31,3 +31,5 @@ Without an OpenAI key, read-only Canvas commands still work when Canvas is confi
 ## Architecture
 
 Integrations normalize provider responses into Pydantic models. Typed tools are registered with JSON schemas, validated before execution, capped by timeout/output limits, and gated by permission. The agent loop can execute multiple tool calls and converts failures into structured observations.
+
+STUDENT CLI AGENT - Canvas + Google Workspace
